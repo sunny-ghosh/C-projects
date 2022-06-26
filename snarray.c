@@ -16,7 +16,7 @@ void main()
   sum=sum+a[i];
  }
  printf("The sum of the given numbers in the array is %d .",sum);
- getch();
+//  getch();
 }
 
 
