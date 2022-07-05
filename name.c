@@ -1,5 +1,6 @@
 #include<stdio.h>
-void main()
+int main()
 {
     printf("My name is Sunny Ghosh.");
+    return 0;
 }
