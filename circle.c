@@ -5,7 +5,7 @@ int main()
 {
  int r;
  float a,p;
- printf("Enter the value of the radius of the circle==> ");
+ printf("Enter the value of the radius of the circle : ");
  scanf("%d",&r);
  a=(3.14*r*r);
  p=(2*3.14*r);

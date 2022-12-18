@@ -4,12 +4,16 @@
 #include<conio.h>
 int MissingNumber(int a[],int x)
 {
-    int i,j,m;
-    for(i=1;i<x;i++)
+    int i,j,m,b[x];
+    for(j=0;j<x;j++)
     {
-        for(j=i;j<x-1;j++)
+        b[j]=j+1;
+    }
+    for(j=0;j<x;j++)
+    {
+        for(i=0;i<j-1;i++)
         {
-            if(a[i]!=a[j])
+            if(a[i]!=b[j])
             {
                 m=i;
                 break;
@@ -21,13 +25,12 @@ int MissingNumber(int a[],int x)
 void main()
 {
     int MissingNumber(int [],int);
-    int n,size,i;
+    int n,i;
     printf("Enter the value of n : ");
     scanf("%d",&n);
-    size = n-1;
-    int arr[size];
+    int arr[n-1];
     printf("Enter the items in the array :-\n");
-    for(i=0;i<size;i++)
+    for(i=0;i<n-1;i++)
     {
         scanf("%d",&arr[i]);
     }
