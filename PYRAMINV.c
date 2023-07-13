@@ -1,8 +1,9 @@
 #include<stdio.h>
-#include<conio.h> 
+#include<conio.h>
 void main()
 {
  int i,j,k,n;
+ clrscr();
  printf("Enter the number of lines you want to print==>");
  scanf("%d",&n);
  for(i=n;i>=1;i--)
